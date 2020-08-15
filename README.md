@@ -12,7 +12,7 @@ Reference:
 Yu X. Assessing Epidemic Trends in Real Time with a Simple Ratio Plot. AJE, 2020 (in press). https://academic.oup.com/aje/advance-article-abstract/doi/10.1093/aje/kwaa123/5864525
 
 
-Examples: New York City
+Examples: Ratio Plots for New York City
 
 !["Five Day Ratio Plot"](epi_ratio_plot_5day_NY.png)
 
