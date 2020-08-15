@@ -20,7 +20,7 @@ head(nycdata5,20)
 nycdata5<-nycdata5[-(1:6),]
 
 ggplot(nycdata5,aes(casedate,fivedayratio)) + geom_line() + geom_hline(yintercept=1) + 
-labs(x = "Date",y="Ratio of 5 Day Change in New Cases") + scale_x_date(date_breaks="2 week",date_labels = "%b %d") +
+labs(title="New York City", x = "Date",y="Ratio of 5 Day Change in New Cases") + scale_x_date(date_breaks="2 week",date_labels = "%b %d") +
 theme(panel.grid.minor = element_blank(),panel.background = element_blank(),axis.line = element_line(colour = "black")) 
 
 # seven day ratio
@@ -32,6 +32,6 @@ head(nycdata7,20)
 nycdata7<-nycdata7[-(1:8),]
 
 ggplot(nycdata7,aes(casedate,sevendayratio)) + geom_line() + geom_hline(yintercept=1) +
-labs(x = "Date",y="Ratio of 7 Day Change in New Cases") + scale_x_date(date_breaks="2 week",date_labels = "%b %d") +
+labs(title="New York City", x = "Date",y="Ratio of 7 Day Change in New Cases") + scale_x_date(date_breaks="2 week",date_labels = "%b %d") +
   theme(panel.grid.minor = element_blank(),panel.background = element_blank(),axis.line = element_line(colour = "black")) 
 
