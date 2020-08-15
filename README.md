@@ -4,6 +4,10 @@ In the original report (Yu X. AJE, 2020), based on the association between R_t a
 
 In the R example codes, we will plot both ratio of consecutive 5-day average and ratio of consecutive 7-day average against time. 
 
+Reference:
+Yu X. Assessing Epidemic Trends in Real Time with a Simple Ratio Plot. AJE, 2020 (in press). https://academic.oup.com/aje/advance-article-abstract/doi/10.1093/aje/kwaa123/5864525
+
+
 !["Five Day Ratio Plot"](epi_ratio_plot_5day_NY.png)
 
 
